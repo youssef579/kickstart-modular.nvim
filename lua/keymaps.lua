@@ -51,4 +51,9 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- jk to escape
+vim.keymap.set({ 'v', 'i' }, 'jk', '<Esc>')
+
+-- Ctrl+S to save
+vim.keymap.set({ 'n', 'i', 'v' }, '<C-s>', '<cmd>w<cr>')
 -- vim: ts=2 sts=2 sw=2 et
