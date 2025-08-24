@@ -78,5 +78,5 @@ vim.opt.softtabstop = 4 -- Number of spaces a <Tab> counts in insert mode
 vim.opt.expandtab = true -- Convert tabs to spaces
 -- Hide end-of-buffer tildes
 vim.opt.fillchars:append { eob = ' ' }
-
+vim.opt.termguicolors = true
 -- vim: ts=2 sts=2 sw=2 et
